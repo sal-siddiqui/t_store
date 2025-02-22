@@ -5,7 +5,7 @@ class TChipTheme {
   TChipTheme._();
 
   static ChipThemeData lightChipTheme = ChipThemeData(
-    disabledColor: TColors.grey.withAlpha(0.4 * 255 as int),
+    disabledColor: TColors.grey.withAlpha((0.4 * 255).toInt()),
     labelStyle: const TextStyle(color: TColors.black),
     selectedColor: TColors.primary,
     padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
