@@ -15,7 +15,7 @@ class SignUpScreen extends StatelessWidget {
       appBar: AppBar(),
       body: SingleChildScrollView(
           child: Padding(
-        padding: EdgeInsets.all(TSizes.defaultSpace),
+        padding: const EdgeInsets.all(TSizes.defaultSpace),
         child: Column(
           children: [
             // Title
@@ -27,7 +27,7 @@ class SignUpScreen extends StatelessWidget {
             const SizedBox(height: TSizes.spaceBtwSections),
 
             // Form
-            TSignUpForm(),
+            const TSignUpForm(),
 
             const SizedBox(height: TSizes.spaceBtwInputFields),
 
