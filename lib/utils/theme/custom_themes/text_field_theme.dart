@@ -16,7 +16,7 @@ class TTextFormFieldTheme {
         .copyWith(fontSize: TSizes.fontSizeSm, color: TColors.black),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
     floatingLabelStyle: const TextStyle()
-        .copyWith(color: TColors.black.withAlpha(0.8 * 255 as int)),
+        .copyWith(color: TColors.black.withAlpha((0.8 * 255).toInt())),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(TSizes.inputFieldRadius),
       borderSide: const BorderSide(width: 1, color: TColors.grey),
@@ -49,7 +49,7 @@ class TTextFormFieldTheme {
     hintStyle: const TextStyle()
         .copyWith(fontSize: TSizes.fontSizeSm, color: TColors.white),
     floatingLabelStyle: const TextStyle()
-        .copyWith(color: TColors.white.withAlpha(0.8 * 255 as int)),
+        .copyWith(color: TColors.white.withAlpha((0.8 * 255).toInt())),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(TSizes.inputFieldRadius),
       borderSide: const BorderSide(width: 1, color: TColors.darkGrey),
